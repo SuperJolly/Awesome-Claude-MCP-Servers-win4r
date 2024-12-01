@@ -26,59 +26,83 @@ A curated list of Model Context Protocol (MCP) servers optimized for Claude and 
 ## Core Servers
 
 ### File Systems 📂
-- [@modelcontextprotocol/server-filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) 📱 🏠
-- [@modelcontextprotocol/server-google-drive](https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive) 📱 ☁️
-- [mark3labs/mcp-filesystem-server](https://github.com/mark3labs/mcp-filesystem-server) 🏃 🏠
+Access and manage files securely across local and cloud storage systems.
+
+- [@modelcontextprotocol/server-filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) 📱 🏠 - Local file system operations with configurable permissions
+- [@modelcontextprotocol/server-google-drive](https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive) 📱 ☁️ - Google Drive integration for file management
+- [mark3labs/mcp-filesystem-server](https://github.com/mark3labs/mcp-filesystem-server) 🏃 🏠 - Go-based implementation for local file access
 
 ### Search Engines 🔍
-- [exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) 🏆 📱 ☁️
-- [@modelcontextprotocol/server-brave-search](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search) 📱 ☁️
-- [ac3xx/mcp-servers-kagi](https://github.com/ac3xx/mcp-servers-kagi) 📱 ☁️
-- [blazickjp/arxiv-mcp-server](https://github.com/blazickjp/arxiv-mcp-server) 🐍 ☁️
+Access real-time web information and specialized search capabilities.
+
+- [exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) 🏆 📱 ☁️ - Real-time web search using Exa AI Search API
+- [@modelcontextprotocol/server-brave-search](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search) 📱 ☁️ - Web search via Brave's Search API
+- [ac3xx/mcp-servers-kagi](https://github.com/ac3xx/mcp-servers-kagi) 📱 ☁️ - Integration with Kagi search engine
+- [blazickjp/arxiv-mcp-server](https://github.com/blazickjp/arxiv-mcp-server) 🐍 ☁️ - Research paper search through ArXiv
 
 ### Databases 🗄️
-- [@modelcontextprotocol/server-postgres](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres) 📱 🏠
-- [@modelcontextprotocol/server-sqlite](https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite) 🐍 🏠
+Query and analyze data while maintaining security.
+
+- [@modelcontextprotocol/server-postgres](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres) 📱 🏠 - PostgreSQL integration with schema inspection
+- [@modelcontextprotocol/server-sqlite](https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite) 🐍 🏠 - SQLite operations with analysis features
 
 ## Extended Capabilities
 
 ### Knowledge & Memory 🧠
-- [@modelcontextprotocol/server-memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) 📱 🏠
+Maintain context and information across sessions.
+
+- [@modelcontextprotocol/server-memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) 📱 🏠 - Knowledge graph-based persistent memory system
 
 ### Version Control 📊
-- [@modelcontextprotocol/server-github](https://github.com/modelcontextprotocol/servers/tree/main/src/github) 📱 ☁️
-- [@modelcontextprotocol/server-gitlab](https://github.com/modelcontextprotocol/servers/tree/main/src/gitlab) 📱 ☁️
-- [@modelcontextprotocol/server-git](https://github.com/modelcontextprotocol/servers/tree/main/src/git) 🐍 🏠
+Manage code repositories and development workflows.
+
+- [@modelcontextprotocol/server-github](https://github.com/modelcontextprotocol/servers/tree/main/src/github) 📱 ☁️ - GitHub integration for repos and issues
+- [@modelcontextprotocol/server-gitlab](https://github.com/modelcontextprotocol/servers/tree/main/src/gitlab) 📱 ☁️ - GitLab platform management
+- [@modelcontextprotocol/server-git](https://github.com/modelcontextprotocol/servers/tree/main/src/git) 🐍 🏠 - Direct Git repository operations
 
 ### Cloud Integration ☁️
-- [Cloudflare MCP Server](https://github.com/cloudflare/mcp-server-cloudflare) 🏆 📱 ☁️
+Interact with cloud infrastructure services.
+
+- [Cloudflare MCP Server](https://github.com/cloudflare/mcp-server-cloudflare) 🏆 📱 ☁️ - Access to Cloudflare services including Workers and KV
 
 ### Communication 💬
-- [@modelcontextprotocol/server-slack](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) 📱 ☁️
+Integrate with team communication platforms.
+
+- [@modelcontextprotocol/server-slack](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) 📱 ☁️ - Slack workspace and channel management
 
 ### Browser Automation 🌐
-- [@modelcontextprotocol/server-puppeteer](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer) 📱 🏠
-- [@modelcontextprotocol/server-youtube](https://github.com/kimtaeyoon83/mcp-server-youtube-transcript) 📱 ☁️
+Access and process web content programmatically.
+
+- [@modelcontextprotocol/server-puppeteer](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer) 📱 🏠 - Web automation and scraping
+- [@modelcontextprotocol/server-youtube](https://github.com/kimtaeyoon83/mcp-server-youtube-transcript) 📱 ☁️ - YouTube subtitle extraction
 
 ### Location Services 🗺️
-- [@modelcontextprotocol/server-google-maps](https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps) 📱 ☁️
+Access geographic and mapping data.
+
+- [@modelcontextprotocol/server-google-maps](https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps) 📱 ☁️ - Maps integration for location and routing
 
 ### Monitoring 📈
-- [@modelcontextprotocol/server-sentry](https://github.com/modelcontextprotocol/servers/tree/main/src/sentry) 🐍 ☁️
-- [@modelcontextprotocol/server-raygun](https://github.com/MindscapeHQ/mcp-server-raygun) 📱 ☁️
+Track application performance and errors.
+
+- [@modelcontextprotocol/server-sentry](https://github.com/modelcontextprotocol/servers/tree/main/src/sentry) 🐍 ☁️ - Error tracking via Sentry.io
+- [@modelcontextprotocol/server-raygun](https://github.com/MindscapeHQ/mcp-server-raygun) 📱 ☁️ - Crash reporting through Raygun
 
 ## Development Tools
 
 ### Frameworks 🛠️
-- [Genkit MCP](https://github.com/firebase/genkit/tree/main/js/plugins/mcp) 📱
-- [@modelcontextprotocol/server-langchain](https://github.com/rectalogic/langchain-mcp) 🐍
-- [mark3labs/mcp-go](https://github.com/mark3labs/mcp-go) 🏃
+Tools for building and extending MCP capabilities.
+
+- [Genkit MCP](https://github.com/firebase/genkit/tree/main/js/plugins/mcp) 📱 - Integration between Genkit and MCP
+- [@modelcontextprotocol/server-langchain](https://github.com/rectalogic/langchain-mcp) 🐍 - LangChain integration for MCP tools
+- [mark3labs/mcp-go](https://github.com/mark3labs/mcp-go) 🏃 - Go SDK for MCP development
 
 ### Integration Tools 🔧
-- [pierrebrunelle/mcp-server-openai](https://github.com/pierrebrunelle/mcp-server-openai) 🐍 ☁️
-- [@modelcontextprotocol/server-everything](https://github.com/modelcontextprotocol/servers/tree/main/src/everything) 📱 🏠
-- [calclavia/mcp-obsidian](https://github.com/calclavia/mcp-obsidian) 📱 🏠
-- [rusiaaman/wcgw](https://github.com/rusiaaman/wcgw/blob/main/src/wcgw/client/mcp_server/Readme.md) 🐍 🏠
+Specialized tools for specific platforms and use cases.
+
+- [pierrebrunelle/mcp-server-openai](https://github.com/pierrebrunelle/mcp-server-openai) 🐍 ☁️ - OpenAI models integration
+- [@modelcontextprotocol/server-everything](https://github.com/modelcontextprotocol/servers/tree/main/src/everything) 📱 🏠 - Comprehensive MCP feature testing
+- [calclavia/mcp-obsidian](https://github.com/calclavia/mcp-obsidian) 📱 🏠 - Obsidian vault integration
+- [rusiaaman/wcgw](https://github.com/rusiaaman/wcgw/blob/main/src/wcgw/client/mcp_server/Readme.md) 🐍 🏠 - Shell execution and computer control
 
 ## Community Resources
 
