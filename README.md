@@ -1,4 +1,5 @@
 # Awesome Claude MCP Servers 🤖 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[中文版](./README.zh-CN.md) | English
 
 A curated list of Model Context Protocol (MCP) servers optimized for Claude and other AI assistants.
 
