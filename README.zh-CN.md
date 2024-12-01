@@ -107,4 +107,4 @@
 ## 社区资源
 
 想要向 Claude 询问模型上下文协议？将此文件添加到您的项目中：
-[Claude MCP 说明]([https://modelcontextprotocol.io/llms-full.txt](https://raw.githubusercontent.com/win4r/Awesome-Claude-MCP-Servers/refs/heads/main/llms-full.txt))
+[Claude MCP 说明](https://raw.githubusercontent.com/win4r/Awesome-Claude-MCP-Servers/refs/heads/main/llms-full.txt)
