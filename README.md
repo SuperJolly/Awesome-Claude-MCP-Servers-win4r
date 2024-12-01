@@ -108,4 +108,4 @@ Specialized tools for specific platforms and use cases.
 ## Community Resources
 
 Want to ask Claude about Model Context Protocol? Add this file to your project:
-[Claude MCP Instructions](https://modelcontextprotocol.io/llms-full.txt)
+[Claude MCP Instructions]([https://modelcontextprotocol.io/llms-full.txt](https://raw.githubusercontent.com/win4r/Awesome-Claude-MCP-Servers/refs/heads/main/llms-full.txt))
